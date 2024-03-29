@@ -23,7 +23,7 @@ import java.util.Objects;
 @RequestMapping(path = "/developers")
 public class DeveloperController {
 
-    Map<Integer, Developer> developers;
+    public Map<Integer, Developer> developers;
 
     private Taxable taxable;
 
